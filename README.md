@@ -7,25 +7,7 @@ Brief Introduction:
 This project demonstrates the integration of Python with SQLite for database operations, including schema design,
 SQL operations, and Python-SQL integration.
 
-Author: Your Name
-"""
-
-# 3. Import Dependencies
-import logging
-import sqlite3
-from pathlib import Path
-
-# 4. Logging Configuration
-logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
-# 2. Project Start
-"""
-Project Name: Database Operations with Python and SQLite
-
-Brief Introduction:
-This project demonstrates the integration of Python with SQLite for database operations, including schema design,
-SQL operations, and Python-SQL integration.
-
-Author: Priyanka
+Author: Priyanka Naskar
 """
 
 # 3. Import Dependencies
