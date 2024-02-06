@@ -61,3 +61,25 @@ def insert_data_from_csv():
 
     -- Select all movies
 SELECT * FROM movies;
+
+-- Select movies of a specific genre
+SELECT * FROM movies WHERE genre = 'Action';
+
+-- Select movies released after a certain year
+SELECT * FROM movies WHERE release_year > 2000;
+
+-- Select movies directed by a specific director
+SELECT * FROM movies WHERE director = 'Quentin Tarantino';
+
+-- Use distinct and combine conditions
+SELECT DISTINCT director FROM movies WHERE Year > 2000 AND Year < 2020;
+
+-- Update the genre of a movie
+UPDATE movies
+SET genre = 'Adventure'
+WHERE title = 'The Dark Knight';
+
+-- Correct the release year of a movie
+UPDATE movies
+SET release_year = 2008
+WHERE title = 'Pulp Fiction';
