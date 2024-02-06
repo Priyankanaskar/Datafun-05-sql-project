@@ -96,3 +96,11 @@ if __name__ == "__main__":
     logging.info("Program started")
     main()
     logging.info("Program ended")
+
+    import logging
+
+# Configure logging to write to a file, appending new logs to the existing file
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+
+logging.info("Program started")
+logging.info("Program ended")
