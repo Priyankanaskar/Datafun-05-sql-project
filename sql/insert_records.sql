@@ -2,7 +2,7 @@ INSERT INTO deliveries (Match_id	Inning	Batting_team	Bowling_team	Over	Batsman	N
 
 VALUES
 
-Match_id	Inning	Batting_team	Bowling_team	Over	Batsman	Non_striker	Bowler	Total_runs
+Match_id	Innings	Batting_team	Bowling_team	Over	Batsman	Non_striker	Bowler	Total_runs
 1	1	Sunrisers Hyderabad	Royal Challengers Bangalore	1	DA Warner	S Dhawan	TS Mills	0
 1	1	Sunrisers Hyderabad	Royal Challengers Bangalore	1	DA Warner	S Dhawan	TS Mills	0
 1	1	Sunrisers Hyderabad	Royal Challengers Bangalore	1	DA Warner	S Dhawan	TS Mills	4
