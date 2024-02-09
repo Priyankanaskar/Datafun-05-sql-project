@@ -1,0 +1,6 @@
+2024-02-08 20:36:58,360 - INFO - Program started
+2024-02-08 20:36:58,360 - INFO - Program ended
+2024-02-08 20:37:03,851 - INFO - Program started
+2024-02-08 20:37:03,851 - INFO - Program ended
+2024-02-08 20:37:05,178 - INFO - Program started
+2024-02-08 20:37:05,178 - INFO - Program ended
