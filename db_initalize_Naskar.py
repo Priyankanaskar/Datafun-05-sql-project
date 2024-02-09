@@ -125,3 +125,12 @@ def insert_data_from_csv():
             print("Data inserted successfully.")
     except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
         print("Error inserting data:", e)
+
+def main():
+    db_filepath = 'project.db'
+
+def main():
+    db_filepath = 'your_database.db'
+
+
+
