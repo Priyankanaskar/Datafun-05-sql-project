@@ -9,7 +9,7 @@ logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', forma
 logging.info("Program started")  # add this at the beginning of the main method
 
 # Define the database file in the current root project directory
-db_file = pathlib.Path("naskar.db")
+db_file = pathlib.Path("project.db")
 
 def create_database():
     """Function to create a database. Connecting for the first time
@@ -36,7 +36,7 @@ def create_tables():
         print("Error creating tables:", e)
 
 # Connect to the SQLite database (create it if it doesn't exist)
-conn = sqlite3.connect("naskar.db")
+conn = sqlite3.connect("project.db")
 
 # Create a cursor object to execute SQL commands
 cursor = conn.cursor()
