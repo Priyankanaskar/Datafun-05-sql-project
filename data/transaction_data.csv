@@ -1,0 +1,17 @@
+Transaction_Id	Payement_Status	Currency	Payement_Amount	Payement_Method	
+TS001	Paid	USD	10887	Amazon Gift Card	
+TS002	Paid	EURO	98889	Credit Card	
+TS003	Paid	USD	6757	Amazon Gift Card	
+TS004	Paid	INR	677666	Debit Card	
+TS005	Paid	INR	8777	Debit Card	
+TS006	Paid	INR	9888	Debit Card	
+TS007	Paid	INR	98887	Debit Card	
+TS008	Invoiced	EURO	98887	Debit Card	
+TS009	Invoiced	EURO	9754	Debit Card	
+TS010	Invoiced	EURO	566888	Credit Card	
+TS011	Invoiced	USD	655	Credit Card	
+TS012	Invoiced	USD	677	Credit Card	
+TS013	Invoiced	USD	677	Credit Card	
+TS014	Invoiced	USD	677	Credit Card	
+TS015	Invoiced	USD	677	Credit Card	
+TS016	Invoiced	USD	677	Credit Card	
